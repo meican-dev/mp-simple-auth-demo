@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view>
+  <button bindtap="openMeican">打开美餐测试版</button>
+</view>
