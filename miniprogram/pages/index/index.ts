@@ -19,7 +19,7 @@ Page({
   openMeican() {
     wx.navigateToMiniProgram({
       extraData: this.data.params,
-      appId: "wx8be7eeee79011493",
+      appId: "{{appId}}",
       path: 'pages/simpleAuth/index',
       envVersion: 'develop'
     })

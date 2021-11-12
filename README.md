@@ -5,9 +5,9 @@ MP Simple Auth Demo
 
 使用 [`wx.navigateToMiniProgram`](https://developers.weixin.qq.com/miniprogram/dev/api/navigate/wx.navigateToMiniProgram.html) 打开美餐小程序，需要传入 3 个参数：
 
-* `appId`: 美餐小程序 ID 为 `wx8be7eeee79011493`
+* `appId`: 美餐小程序 ID，从美餐研发人员处获取
 * `path`: `pages/simpleAuth/index`
-* `extraData`: 认证参数
+* `extraData`: 认证参数，从美餐研发人员处获取
 
 ```js
 wx.navigateToMiniProgram({
